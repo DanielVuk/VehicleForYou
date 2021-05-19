@@ -313,16 +313,11 @@ a:hover {
     max-width: 670px;
 }
 
-/*Map*/
-.mapouter {
-    margin: 5rem 5rem 5rem 10rem;
-}
-.mapinner {
-    margin: 5rem 5rem 5rem 10rem;
-    overflow: hidden;
-    background: none !important;
-    height: 500px;
-    width: 600px;
+/* Map */
+.map {
+    width: 40rem;
+    height: 30rem;
+    border: 0;
 }
 
 /*Form*/
@@ -392,6 +387,9 @@ form > h3 {
         font-size: 2rem;
         width: 20rem;
         height: 6rem;
+    }
+    .fix {
+        padding-top: 10px;
     }
 }
 
@@ -655,6 +653,12 @@ form > h3 {
     }
 }
 
+/* Image*/
+.thankYouImage {
+    display: block;
+    width: 70%;
+    margin: 6px auto;
+}
 .hvl {
     display: block;
     margin: 3rem auto;
